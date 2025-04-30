@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Prompt";
+  src: url("../src/assets/fonts/Prompt-Regular.ttf");
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url("../src/assets/fonts/Orbitron-Regular.ttf");
+}
+
+@theme {
+  --font-prompt: "Prompt", sans-serif;
+  --font-orbitron: "Orbitron", sans-serif;
+
+  --text-shadow-tron: 0px 0px 10px rgba(12, 169, 255, 1);
+  --shadow-tron: 0px 0px 21px rgba(12, 169, 255, 1);
+
+  --color-tron-blue: #00d9ff;
+}
